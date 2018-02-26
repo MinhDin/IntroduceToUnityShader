@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: EnvironmentOverlay
-  m_Shader: {fileID: 4800000, guid: 13bdfcbed7500ed4792e76e176699295, type: 3}
+  m_Name: Diffuse
+  m_Shader: {fileID: 10708, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -38,12 +38,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _GlowTex:
-        m_Texture: {fileID: 2800000, guid: 5078ceb79528d9543b29a70387be3edf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 8400000, guid: e2bc60f043e6ddc4f8f58d72eebe5dda, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -58,10 +54,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _TransitionTex:
-        m_Texture: {fileID: 2800000, guid: 6c2bf05434160d94b91cfd28b3c114e1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -72,7 +64,6 @@ Material:
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
-    - _NormalizedTime: 1.0103209
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
@@ -82,5 +73,4 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DisplayInfo: {r: 28.622223, g: 16.1, b: -4.7778997, a: 0.24087034}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

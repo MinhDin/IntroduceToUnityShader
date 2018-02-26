@@ -121,8 +121,6 @@ public class CameraBlit : MonoBehaviour
 			return;
 		}
 
-		
-
 		if (mode == 1)
 		{
 			float halfScreenH = cam.orthographicSize;
